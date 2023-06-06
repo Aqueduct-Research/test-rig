@@ -45,7 +45,7 @@ while True:
     with open(LOG_FILE, 'w') as f:
         f.write(str(timer))
 
-    # wait for a random time between 5 to 15 minutes
-    wait_time = urandom.randint(5*60, 15*60)
+    # wait for a random time between 10 to 15 minutes
+    wait_time = urandom.randint(10*60, 15*60)
     time.sleep(wait_time)
 
