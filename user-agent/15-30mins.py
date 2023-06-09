@@ -29,7 +29,7 @@ while True:
     print('Relay on')
 
     # keep relay on for 30 seconds
-    time.sleep(30)
+    time.sleep(15)
 
     # turn relay off
     relay.off()
