@@ -28,7 +28,7 @@ while True:
     relay_start_time = time.time()
     print('Relay on')
 
-    # keep relay on for 30 seconds
+    # keep relay on for 15 seconds (abou5 1L of water)
     time.sleep(15)
 
     # turn relay off
